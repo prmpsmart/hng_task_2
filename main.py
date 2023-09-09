@@ -26,7 +26,7 @@ async def api(slack_name: str, track: str) -> Response:
     now = datetime.datetime.now()
     return {
         "slack_name": slack_name,
-        "current_day": str(now.day),
+        "current_day": now.strftime("%A"),
         "utc_time": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "track": track,
         "github_file_url": f"{repo}/blob/main/main.py",
