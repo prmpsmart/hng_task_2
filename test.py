@@ -1,9 +1,9 @@
 import requests
 
 d = requests.get(
-    "http://127.0.0.1:8000/api",
+    "https://hngtask2-prmpsmart.b4a.run/api",
     params=dict(
-        slack_name="example_name",
+        slack_name="Miracle Apata",
         track="backend",
     ),
 )

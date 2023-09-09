@@ -20,8 +20,8 @@ The information required includes:
   "current_day": "Monday",
   "utc_time": "2023-08-21T15:04:05Z",
   "track": "backend",
-  "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
-  "github_repo_url": "https://github.com/username/repo",
+  "github_file_url": "https://github.com/prmpsmart/hng_task_2/blob/main/main.py",
+  "github_repo_url": "https://github.com/prmpsmart/hng_task_2",
   "status_code": 200
 }
 ```
@@ -30,7 +30,7 @@ The information required includes:
 
 - **Endpoint Creation**: Provide a publicly accessible endpoint.
 - **GET Parameters**: The endpoint should accept two GET request query parameters: slack_name and track.
-    - E.g.: http://example.com/api?slack_name=example_name&track=backend.
+    - E.g.: https://hngtask2-prmpsmart.b4a.run/api?slack_name=Miracle_Apata&track=backend.
 
 - **Slack Name**: The response should include the slack_name passed as a GET request query parameter.
 - **Current Day of the Week**: Display the current day of the week in full (e.g., Monday, Tuesday, etc.).
@@ -50,5 +50,5 @@ Please follow these submission guidelines
 
 - Get into your DM
 - Type /grade <your-api-endpoint-url-with-the-query-parameters>
-- E.g: /grade http://example.com/api?slack_name=example_name&track=backend
+- E.g: /grade https://hngtask2-prmpsmart.b4a.run/api?slack_name=Miracle_Apata&track=backend
 - Check your result
