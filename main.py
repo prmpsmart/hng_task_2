@@ -19,7 +19,6 @@ app = FastAPI(
 )
 repo = "https://github.com/prmpsmart/hng_task_2"
 
-
 # slack_name=example_name&track=backend.
 @app.get("/api", status_code=200)
 async def api(slack_name: str, track: str) -> Response:
